@@ -1,8 +1,8 @@
-package com.cetc15.pac4j.cas.config;
+package com.gahon.pac4j.cas.config;
 
-import com.cetc15.pac4j.cas.filter.CustomContextThreadLocalFilter;
-import com.cetc15.pac4j.cas.properties.CasProperties;
-import com.cetc15.pac4j.cas.store.CasSessionStore;
+import com.gahon.pac4j.cas.filter.CustomContextThreadLocalFilter;
+import com.gahon.pac4j.cas.properties.CasProperties;
+import com.gahon.pac4j.cas.store.CasSessionStore;
 import org.pac4j.cas.client.CasClient;
 import org.pac4j.cas.config.CasConfiguration;
 import org.pac4j.core.config.Config;

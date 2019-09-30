@@ -1,4 +1,4 @@
-package com.cetc15.pac4j.cas.util;
+package com.gahon.pac4j.cas.util;
 
 
 import org.pac4j.core.profile.BasicUserProfile;

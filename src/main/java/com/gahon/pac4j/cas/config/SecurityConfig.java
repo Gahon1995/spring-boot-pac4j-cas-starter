@@ -1,7 +1,7 @@
-package com.cetc15.pac4j.cas.config;
+package com.gahon.pac4j.cas.config;
 
-import com.cetc15.pac4j.cas.properties.CasProperties;
-import com.cetc15.pac4j.cas.web.SecurityInterceptor;
+import com.gahon.pac4j.cas.properties.CasProperties;
+import com.gahon.pac4j.cas.web.SecurityInterceptor;
 import org.pac4j.core.config.Config;
 import org.pac4j.core.http.adapter.JEEHttpActionAdapter;
 import org.springframework.beans.factory.annotation.Autowired;

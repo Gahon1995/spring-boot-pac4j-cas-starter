@@ -1,4 +1,4 @@
-package com.cetc15.pac4j.cas.config;
+package com.gahon.pac4j.cas.config;
 
 import org.springframework.context.annotation.Import;
 

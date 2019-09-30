@@ -1,4 +1,4 @@
-package com.cetc15.pac4j.cas.web;
+package com.gahon.pac4j.cas.web;
 
 import org.pac4j.core.authorization.authorizer.Authorizer;
 import org.pac4j.core.config.Config;

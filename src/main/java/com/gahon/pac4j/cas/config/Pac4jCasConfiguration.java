@@ -1,6 +1,6 @@
-package com.cetc15.pac4j.cas.config;
+package com.gahon.pac4j.cas.config;
 
-import com.cetc15.pac4j.cas.properties.CasProperties;
+import com.gahon.pac4j.cas.properties.CasProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Import;
  */
 @Configuration
 @EnableConfigurationProperties(CasProperties.class)
-@ComponentScan(basePackages = "com.cetc15.pac4j.cas.web")
+@ComponentScan(basePackages = "com.gahon.pac4j.cas.web")
 @Import({
         Pac4jConfig.class,
         SecurityConfig.class

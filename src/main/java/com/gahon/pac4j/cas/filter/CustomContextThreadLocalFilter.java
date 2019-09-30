@@ -1,7 +1,7 @@
-package com.cetc15.pac4j.cas.filter;
+package com.gahon.pac4j.cas.filter;
 
 
-import com.cetc15.pac4j.cas.util.ContextHolder;
+import com.gahon.pac4j.cas.util.ContextHolder;
 import org.pac4j.core.context.JEEContext;
 import org.pac4j.core.context.WebContext;
 import org.pac4j.core.profile.BasicUserProfile;

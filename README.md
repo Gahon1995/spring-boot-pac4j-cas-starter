@@ -1,12 +1,42 @@
 ## Pac4J-CAS Spring Boot starter 单点登录
 
-### 使用说明
-1. 将该项目使用jar包，或者maven的方式导入目标项目中
-2. 按照配置说明进行相应的配置
+项目源码地址: https://github.com/Gahon1995/spring-boot-pac4j-cas-starter
+
+### 一、 源码安装
+
+#### 1. 下载项目源码打包安装到本地仓库
+```shell script
+# clone our repo
+# --depth 1 removes all but one .git commit history
+git clone --depth 1 https://github.com/Gahon1995/spring-boot-pac4j-cas-starter.git
+
+# change directory to our repo
+cd spring-boot-pac4j-cas-starter
+
+# install the repo with mvn
+mvn install
+```
+
+#### 2. 项目中引入pom依赖
+```xml
+<dependency>
+    <groupId>com.gahon</groupId>
+    <artifactId>spring-boot-pac4j-cas-starter</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+#### 3. 项目配置
+1. 在`application.properties`中写入最小配置，并更像相关值
+2. 在`Spring boot`启动类上加上注解`@EnablePac4jCas`
+
+
+### 二、 使用jar包安装
+1. 将该项目打包好的包含依赖包的jar包, 导入目标项目中
+2. 按照配置文件说明进行相应的配置
 3. 在`Spring boot`启动类上加上注解`@EnablePac4jCas`
 
-### 配置说明
-#### 最小配置
+### 三、 配置文件说明
+#### 1. 最小配置
 ```properties
 # 填CAS服务器的前缀，不需要后反斜杠
 cas.server-url-prefix=http://cas.server.com:8088/cas/
@@ -30,7 +60,7 @@ cas.logout.central-logout=true
 cas.logout.local-logout=false
 ```
 
-#### 全部配置
+#### 2. 全部配置
 ```properties
 # the default client
 cas.callback.default-client=

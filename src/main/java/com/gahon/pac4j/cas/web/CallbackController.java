@@ -1,6 +1,6 @@
-package com.cetc15.pac4j.cas.web;
+package com.gahon.pac4j.cas.web;
 
-import com.cetc15.pac4j.cas.properties.CasProperties;
+import com.gahon.pac4j.cas.properties.CasProperties;
 import org.pac4j.core.config.Config;
 import org.pac4j.core.context.JEEContext;
 import org.pac4j.core.engine.CallbackLogic;
