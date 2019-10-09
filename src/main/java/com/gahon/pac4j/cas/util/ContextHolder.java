@@ -6,7 +6,10 @@ import org.pac4j.core.profile.BasicUserProfile;
 /**
  * 线程内提供  Pac4jPrincipal 访问
  *
- * @author ssss
+ * 同一线程内通过调用该类里边的方法能够在非controller层获取到
+ * 当前登录的用户信息
+ *
+ * @author gahon
  */
 public class ContextHolder {
 

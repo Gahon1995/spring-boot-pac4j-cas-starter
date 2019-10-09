@@ -13,7 +13,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @author Gahon
  */
 @Configuration
-
 public class SecurityConfig implements WebMvcConfigurer {
 
     @Autowired
